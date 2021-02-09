@@ -33,7 +33,7 @@ const Input = (props) => {
           </select>
         );
       }
-      case "textarea":
+      case "textarea":{
         return (
           <textarea
             id={props.id}
@@ -45,6 +45,20 @@ const Input = (props) => {
             value={props.value}
           />
         );
+      }
+      default:{
+        return (
+          <input
+            id={props?.id}
+            name={props?.name}
+            type={props?.type}
+            className={"border " + (props.className ?? "")}
+            placeholder={props?.placeholder}
+            icon={props?.icon}
+            value={props?.value}
+          />
+        );
+      }
     }
   };
 

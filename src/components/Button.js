@@ -15,10 +15,4 @@ const Button = props => {
         </div>
     )
 }
-
-
-Button.propTypes = {
-    name: PropTypes.string.isRequired,
-    className: PropTypes.string.isRequired,
-}
 export default Button;
