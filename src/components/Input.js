@@ -33,7 +33,11 @@ const Input = (props) => {
           </select>
         );
       }
+<<<<<<< HEAD
       case "textarea":{
+=======
+      case "textarea":
+>>>>>>> 9bebc7c730728eb25533e006f542aa951ba369d6
         return (
           <textarea
             id={props.id}
@@ -45,6 +49,7 @@ const Input = (props) => {
             value={props.value}
           />
         );
+<<<<<<< HEAD
       }
       default:{
         return (
@@ -59,6 +64,8 @@ const Input = (props) => {
           />
         );
       }
+=======
+>>>>>>> 9bebc7c730728eb25533e006f542aa951ba369d6
     }
   };
 
