@@ -16,6 +16,11 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
 
+<<<<<<< HEAD
+      "yelow-tofest":"#fCC620",
+
+=======
+>>>>>>> 9bebc7c730728eb25533e006f542aa951ba369d6
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,

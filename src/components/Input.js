@@ -33,7 +33,11 @@ const Input = (props) => {
           </select>
         );
       }
+<<<<<<< HEAD
+      case "textarea":{
+=======
       case "textarea":
+>>>>>>> 9bebc7c730728eb25533e006f542aa951ba369d6
         return (
           <textarea
             id={props.id}
@@ -45,6 +49,23 @@ const Input = (props) => {
             value={props.value}
           />
         );
+<<<<<<< HEAD
+      }
+      default:{
+        return (
+          <input
+            id={props?.id}
+            name={props?.name}
+            type={props?.type}
+            className={"border " + (props.className ?? "")}
+            placeholder={props?.placeholder}
+            icon={props?.icon}
+            value={props?.value}
+          />
+        );
+      }
+=======
+>>>>>>> 9bebc7c730728eb25533e006f542aa951ba369d6
     }
   };
 

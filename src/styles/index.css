@@ -1,5 +1,41 @@
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
+<<<<<<< HEAD
+/* Customized css ToFest */
+
+
+.hover\:text-yellow-tofest:hover {
+  --tw-text-opacity: 1;
+  color: rgba(252, 198, 32, var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-yellow-tofest {
+  --tw-text-opacity: 1;
+  color: rgba(252, 198, 32, var(--tw-text-opacity));
+}
+
+.focus-within\:text-yellow-tofest:focus-within {
+  --tw-text-opacity: 1;
+  color: rgba(252, 198, 32, var(--tw-text-opacity));
+}
+
+.yellow-tofest{
+  color: #fCC620;
+}
+
+.blue-tofest{
+  color: #0B122F;
+}
+
+.bg-yellow-tofest{
+  --bg-opacity: 1;
+  background-color: #fCC620;
+  background-color: rgba(252, 198, 32, var(--bg-opacity));
+}
+
+
+=======
+>>>>>>> 9bebc7c730728eb25533e006f542aa951ba369d6
 /*
 Document
 ========
